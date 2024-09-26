@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${poppins.variable}} antialiased`}
+        className={poppins.variable}
         style={{ display: "flex", justifyContent: "center" }}
       >
         <Provider store={store}>{children}</Provider>
